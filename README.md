@@ -1,6 +1,7 @@
 ## Selenium tutorial
 
-The tutorial is in its own folder.  
+The project description follows.  
+There's also a [tutorial](Tutorial).
 
 ```
 # Note: Install Python 3 and pip, a Python package manager
