@@ -1,10 +1,8 @@
-## [Selenium Installation](https://selenium.dev/documentation/en/selenium_installation/)
+## [Installing Selenium libraries](https://selenium.dev/documentation/en/selenium_installation/installing_selenium_libraries/)
 
-### [Installing Selenium libraries](https://selenium.dev/documentation/en/selenium_installation/installing_selenium_libraries/)
+Install the Selenium `binding`.  
 
-Install the Selenium binding.  
-
-#### Java
+### Java
 
 ```
 <dependency>
@@ -12,17 +10,21 @@ Install the Selenium binding.
   <artifactId>selenium-java</artifactId>
   <version>3.X</version>
 </dependency>
+
+<dependency>
+  <groupId>org.seleniumhq.selenium</groupId>
+  <artifactId>selenium-Web-Browser-Name-driver</artifactId>
+  <version>3.X</version>
+</dependency>
 ```
 
-You can also just add a dependency for a specific browser.  
-
-#### Python
+### Python
 
 ```
 $: pip install selenium  # you should use `pipenv` instead
 ```
 
-#### C#
+### C#
 
 ```
 $: Install-Package Selenium.WebDriver  # package manager
@@ -30,26 +32,26 @@ $: Install-Package Selenium.WebDriver  # package manager
 $: dotnet add package Selenium.WebDriver  # .Net CLI
 ```
 
-#### Ruby
+### Ruby
 
 ```
 $: gem install selenium-webdriver
 ```
 
-#### JavaScript
+### JavaScript
 
 ```
 $: npm install selenium-webdriver
 ```
 
-#### Kotlin
+### Kotlin
 
-Use Maven and Java instead.  
+Use `Maven` and `Java` instead.  
 
-### [Installing WebDriver binaries](https://selenium.dev/documentation/en/selenium_installation/installing_webdriver_binaries/)
+## [Installing WebDriver binaries](https://selenium.dev/documentation/en/selenium_installation/installing_webdriver_binaries/)
 
-[Install](../WebDriver/DriverRequirements) browser OS specific WebDriver binaries.  
+[Install](../WebDriver/DriverRequirements) browser OS specific `WebDriver` binaries.  
 
-### [Installing Standalone server](https://selenium.dev/documentation/en/selenium_installation/installing_standalone_server/)
+## [Installing Standalone server](https://selenium.dev/documentation/en/selenium_installation/installing_standalone_server/)
 
 TODO
