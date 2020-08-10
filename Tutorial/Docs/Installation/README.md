@@ -21,7 +21,7 @@ Install the Selenium `binding`.
 ### Python
 
 ```
-$: pip install selenium  # you should use `pipenv` instead
+$: pip install selenium  # you should use `poetry` instead
 ```
 
 ### C#

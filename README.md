@@ -1,71 +1,67 @@
 ## Selenium tutorial
 
-The project description follows.  
-There's also a [tutorial](Tutorial).
+See the [tutorial](Tutorial) for more information.
 
 ```
-# Note: Install Python 3 and pip, a Python package manager
+# Note: Install Python 3 and poetry
 
-$: pip install pipenv  # install pipenv, a dependency manager
-# Note: you may need to add pipenv to PATH
+$: poetry install  # install all dependencies
+```
 
-$: pipenv install  # install all dependencies
+### dist
+
+```
+$: pip install dist/selenium-x.y.z-py3-none.any.whl
+
+$: poetry-template
 ```
 
 ### docs
 
 ```
-$: pipenv shell
+$: poetry shell
 $: cd docs
 # Note: review source/conf.py and source/index.rst
 $: make html
+# Note: see docs in docs/build/apidocs/index.html
 ```
 
-### src
+### selenium
 
 ```
-$: pipenv run python ./src/selenium/runner.py
-$: pipenv run
+$: poetry run python ./selenium/runner.py
 ```
 
 ### tests
 
 ```
-$: pipenv run pytest
+$: poetry run pytest
 ```
 
 ```
-$: pipenv run pytest --cov=src --cov-report=html tests
-#: Note: the coverage report is htmlcov/index.html
+$: poetry run pytest --cov=selenium --cov-report=html tests
+#: Note: see coverage report in htmlcov/index.html
 ```
 
-### Pipfile/Pipfile.lock
+### poetry.lock
 
-Dependencies, Python version and the virtual environment are managed by pipenv.
+Dependencies, Python version and the virtual environment are managed by `Poetry`.
 
 ```
-$: pipenv --python Python-Version  # lock project's Python version
-
-$: pip search Package-Name
-$: pipenv install Package-Name==Package-Version
+$: poetry search Package-Name
+$: poetry add Package-Name[==Package-Version]
 ```
+
+### pyproject.toml
+
+Define project entry point and metadata.  
 
 ### setup.cfg
 
-Configure Python libraries.
-
-### setup.py
-
-Define project entry point and metadata.
+Configure Python libraries.  
 
 ### Linters
 
 ```
-$: pipenv run flake8  # check PEP8
-```
-
-### Enter venv
-
-```
-$: pipenv shell
+$: poetry run black .
 ```

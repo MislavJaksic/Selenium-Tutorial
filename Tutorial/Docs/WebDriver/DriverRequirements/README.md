@@ -12,15 +12,17 @@ Through `WebDriver`, Selenium supports:
 ### Adding Executables to your PATH
 
 Selenium needs an executable to communicate with the browser:
-1) create a folder: `C:\WebDriver\bin` or `/opt/WebDriver/bin`
-2) add directory to PATH
+1) Create a folder: `C:\WebDriver\bin` or `/opt/WebDriver/bin`
+2) Add directory to PATH
     * `Windows`: `$: setx /m path "%path%;C:\WebDriver\bin\"`
     * `macOS` or `Linux`: `$: export PATH=$PATH:/opt/WebDriver/bin >> ~/.profile`
-3) test in command line: `$: chromium` or `$: geckodriver`
+3) Test in command line: `$: chromium` or `$: geckodriver`
 
 ### Quick reference
 
 Choose a `WebDriver` binary.  
+Download the binary.
+Move the binary to a directory: `C:\WebDriver\bin\` or `/opt/WebDriver/bin`.  
 
 ### Chromium/Chrome
 

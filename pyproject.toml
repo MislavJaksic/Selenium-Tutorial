@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "Selenium-Tutorial"
+version = "1.0.0"
+description = "How to use Selenium."
+
+license = "MIT"
+authors = ["Mislav Jakšić <jaksicmislav@gmail.com>"]
+maintainers = []
+readme = "README.md"
+
+homepage = "https://github.com/MislavJaksic/Selenium-Tutorial"
+repository = "https://github.com/MislavJaksic/Selenium-Tutorial"
+documentation = "https://github.com/MislavJaksic/Selenium-Tutorial"
+
+keywords = []
+
+classifiers = []
+
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "^2.22.0"
+selenium = "^3.141.0"
+
+[tool.poetry.dev-dependencies]
+pytest-cov = "^2.8.1"
+black = "^19.10b0"
+pytest = "^5.2"
+sphinx = "^2.3.1"
+mock = "^3.0.5"
+tox = "^3.14.0"
+
+[tool.poetry.scripts]
+selenium-run = "selenium.runner:run"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

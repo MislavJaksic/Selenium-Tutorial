@@ -1,0 +1,29 @@
+[Worm, Battery]
+
+Damage Control II
+Drone Damage Amplifier II
+
+Coreli A-Type 1MN Afterburner
+Thukker Small Cap Battery
+Dark Blood Small Capacitor Booster, Navy Cap Booster 200
+Pithum C-Type Medium Shield Booster
+
+Arbalest Compact Light Missile Launcher, Caldari Navy Scourge Light Missile
+Arbalest Compact Light Missile Launcher, Caldari Navy Scourge Light Missile
+Arbalest Compact Light Missile Launcher, Caldari Navy Scourge Light Missile
+
+Small Anti-EM Screen Reinforcer II
+Small Anti-Thermal Screen Reinforcer II
+Small Anti-Kinetic Screen Reinforcer II
+
+
+Caldari Navy Hornet x2
+Hornet II x3
+
+
+Inherent Implants 'Squire' Power Grid Management EG-602
+
+
+Navy Cap Booster 200 x16
+Caldari Navy Scourge Light Missile x1200
+Nanite Repair Paste x50
