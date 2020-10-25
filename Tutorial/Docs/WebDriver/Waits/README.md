@@ -1,7 +1,7 @@
 ## [Waits](https://www.selenium.dev/documentation/en/webdriver/waits/)
 
 WebDriver has a blocking API.  
-Browsers are asynchronous nature.  
+Browsers are asynchronous in nature.  
 Be conscious of race conditions.  
 Waits also you to avoid race conditions.  
 
@@ -43,7 +43,7 @@ my_dynamic_element = driver.find_element(By.ID, "myDynamicElement")
 
 ### FluentWait
 
-Freeze for a set amount of time and set frequency with with to check if the condition.  
+Freeze for a set amount of time and set frequency with which to check the condition.  
 
 ```python
 driver = Firefox()
